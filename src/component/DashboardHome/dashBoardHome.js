@@ -1,13 +1,13 @@
 import React from 'react';
-import './dashBoardHome.css';
-import Header from '../header';
+import {Link} from 'react-router-dom';
 
 const DashBoardHome = () => {
     return(
-        <>
-            <Header/>       
+        <>        
             <center>
-                <h3>You Have Loged Successfully...</h3>
+                <h3>Employee Dashboard ..You Have to Login Or Sign Up Here</h3>
+                <Link to="/login" className="btn btn-success btn-md">Login</Link> &nbsp;&nbsp;
+                <Link to="/register" className="btn btn-warning btn-md">Sign Up</Link>
             </center>
         </>
     )

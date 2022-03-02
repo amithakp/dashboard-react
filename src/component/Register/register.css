@@ -15,9 +15,14 @@ body{
 }
 
 .panel-heading{
-   color:  #12283f!important;
-   background-color: aliceblue;
-   font-weight: bold;
+    background-color: aliceblue;
+}
+
+.panel-heading> span{
+    color: #12283f!important;
+    font-weight: bold;
+    margin-left: 190px;
+    font-size: medium;
 }
 
 .btn-success{

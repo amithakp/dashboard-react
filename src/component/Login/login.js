@@ -31,7 +31,7 @@ class Login extends Component {
                 this.setState({message:data.token});
             }else{
                 localStorage.setItem('ltk',data.token)
-                this.props.history.push('/dashBoardHome')
+                this.props.history.push('/Home')
             }
         })
     }
@@ -46,7 +46,7 @@ class Login extends Component {
                 <br/>
                 <div class="panel panel-success">
                     <div class="panel-heading">
-                        Login
+                       <span>Login</span>
                     </div>
                     <div class="panel-body">
                         <h3 style={{color:'red'}}>{this.state.message}</h3>
@@ -63,7 +63,7 @@ class Login extends Component {
                                     <div className="col-md-12">
                                         <div className="form-group">
                                             <label>Password</label>
-                                            <input className="form-control" name="password" 
+                                            <input className="form-control" name="password" type="password" 
                                             value={this.state.password} onChange ={this.handleChange}/>
                                         </div>
                                     </div>

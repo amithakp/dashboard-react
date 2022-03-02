@@ -14,9 +14,11 @@ body{
     background: linear-gradient(45deg, #12283f, #000000);
 }
 
-.panel-heading{
-   color:  #12283f!important;
-   font-weight: bold;
+.panel-heading> span{
+    color: #12283f!important;
+    font-weight: bold;
+    margin-left: 123px;
+    font-size: medium;
 }
 
 .btn-success{

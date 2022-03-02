@@ -63,7 +63,7 @@ const Header = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav">
-                            <li><Link to="/dashBoardHome">Home</Link></li>
+                            <li><Link to="/Home">Home</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                             <li><Link to="/sales">Sales</Link></li>
                             <li><Link to="/product">Product</Link></li>

@@ -37,7 +37,7 @@ class Register extends Component {
                     <br/>
                     <div className="panel" id="panel-background">
                         <div className="panel-heading">
-                            Register
+                           <span>Register</span>
                         </div>
                         <div className="panel-body">
                             <div className="row">
@@ -66,7 +66,7 @@ class Register extends Component {
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label>Password</label>
-                                            <input className="form-control" name="password" 
+                                            <input className="form-control" name="password" type="password"
                                             value={this.state.password} onChange ={this.handleChange}/>
                                         </div>
                                     </div>

@@ -13,9 +13,9 @@ const Routing = () => {
     return(
         <BrowserRouter>
             {/* <Login/> */}
-             <Route exact path="/" component={Home}/>
+             <Route exact path="/" component={DashBoardHome}/>
              <Route  path="/login" component={Login}/>
-             <Route  path="/dashBoardHome" component={DashBoardHome}/>
+             <Route  path="/Home" component={Home}/>
              <Route  path="/register" component={Register}/>
              <Route  path="/contact" component={Contact}/>
              <Route  path="/sales" component={Sales}/>
