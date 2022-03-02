@@ -68,9 +68,11 @@ class Login extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <button className="btn btn-success" onClick={this.handleSubmit}>
-                                    Login
-                                </button>
+                                <div className="parent-section">
+                                    <button className="btn btn-success" onClick={this.handleSubmit}>
+                                        Login
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

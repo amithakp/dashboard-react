@@ -71,9 +71,11 @@ class Register extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <button className="btn btn-success" onClick={this.handleSubmit}>
-                                    Register
-                                </button>
+                                <div className="parent-section">
+                                    <button className="btn btn-success" onClick={this.handleSubmit}>
+                                        Register
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
