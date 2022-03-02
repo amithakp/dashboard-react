@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(45deg, #001a34, #000000);
+}
+
+.container-fluid {
+    background: linear-gradient(45deg, #001a34, #000000);
+    padding: 40px 30px;
+    transition:1s;
+}
+
+.panel-success{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, #12283f, #000000);
+}
+
+.panel-heading{
+   color:  #12283f!important;
+   font-weight: bold;
+}
+
+.btn-success{
+    margin-left: 78px;
+}
+
+label{
+    color: aliceblue;
+}
