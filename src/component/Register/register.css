@@ -19,9 +19,9 @@ body{
 }
 
 .panel-heading> span{
-    color: #12283f!important;
+    color: #12283f !important;
     font-weight: bold;
-    margin-left: 190px;
+    margin-left: 190px !important;
     font-size: medium;
 }
 

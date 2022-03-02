@@ -17,7 +17,7 @@ body{
 .panel-heading> span{
     color: #12283f!important;
     font-weight: bold;
-    margin-left: 123px;
+    margin-left: 133px !important;
     font-size: medium;
 }
 
