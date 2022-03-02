@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './register.css';
 
-const registerUrl = "https://login-out.herokuapp.com/api/auth/register";
+const registerUrl = "http://localhost:4000/api/auth/register";
 
 class Register extends Component {
     constructor(props){

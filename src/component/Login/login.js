@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './login.css';
 
-const loginrUrl = "https://login-out.herokuapp.com/api/auth/login";
+const loginrUrl = "http://localhost:4000/api/auth/login";
 
 class Login extends Component {
     constructor(props){

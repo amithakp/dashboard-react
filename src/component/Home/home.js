@@ -7,7 +7,7 @@ const Home = () => {
         <>
             <Header/>       
             <center>
-                <h3>You Have Loged Successfully...</h3>
+                <h3>You Have Logged Successfully...</h3>
             </center>
         </>
     )
