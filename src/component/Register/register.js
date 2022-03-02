@@ -15,6 +15,7 @@ class Register extends Component {
         }
     }
 
+    // register button
     handleSubmit = () => {
         fetch(registerUrl,{
             method:'POST',
@@ -27,9 +28,11 @@ class Register extends Component {
         .then(this.props.history.push('/login'))
     }
 
+    //form content
     handleChange = (event) => {
         this.setState({[event.target.name]:event.target.value})
     }
+    
     render(){
         return(
             <>

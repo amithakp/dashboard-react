@@ -12,7 +12,6 @@ import DashBoardHome from './DashboardHome/dashBoardHome';
 const Routing = () => {
     return(
         <BrowserRouter>
-            {/* <Login/> */}
              <Route exact path="/" component={DashBoardHome}/>
              <Route  path="/login" component={Login}/>
              <Route  path="/Home" component={Home}/>

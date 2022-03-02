@@ -14,7 +14,8 @@ class Login extends Component {
 
         }
     }
-
+    
+    //login button
     handleSubmit = () => {
         fetch(loginrUrl,{
             method:'POST',
@@ -36,6 +37,7 @@ class Login extends Component {
         })
     }
 
+    //load form content onChanging
     handleChange = (event) => {
         this.setState({[event.target.name]:event.target.value})
     }
