@@ -17,8 +17,11 @@ body{
 .panel-heading> span{
     color: #12283f!important;
     font-weight: bold;
-    margin-left: 133px !important;
     font-size: medium;
+}
+
+#login-span{
+    margin-left: 133px !important;
 }
 
 .parent-section{

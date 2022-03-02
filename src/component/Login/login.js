@@ -42,13 +42,13 @@ class Login extends Component {
     render(){
         return(
             <>
-                <div class="container-fluid">
+                <div className="container-fluid">
                 <br/>
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                       <span>Login</span>
+                <div className="panel panel-success">
+                    <div className="panel-heading">
+                       <span id="login-span">Login</span>
                     </div>
-                    <div class="panel-body">
+                    <div className="panel-body">
                         <h3 style={{color:'red'}}>{this.state.message}</h3>
                             
                             <div className="row">
