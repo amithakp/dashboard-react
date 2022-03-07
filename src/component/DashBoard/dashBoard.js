@@ -1,16 +1,16 @@
 import React from 'react';
-import './sales.css';
+import './dashBoard.css';
 import Header from '../header';
 
-const Sales = () => {
+const DashBoard = () => {
     return(
         <>
-            <Header/>        
+            <Header/>       
             <center>
-                <h3>This is Sales Page</h3>
+                 <h3>Dashboard</h3> 
             </center>
         </>
     )
 }
 
-export default Sales;
+export default DashBoard;

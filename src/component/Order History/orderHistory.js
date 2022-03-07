@@ -1,16 +1,16 @@
 import React from 'react';
-import './contact.css';
+import './orderHistory.css';
 import Header from '../header';
 
-const Contact = () => {
+const OrderHistory = () => {
     return(
         <>
             <Header/>       
             <center>
-                <h3>This is Contact Page</h3>
+                <h3>This is Order History Page</h3>
             </center>
         </>
     )
 }
 
-export default Contact;
+export default OrderHistory;

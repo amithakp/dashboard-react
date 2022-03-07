@@ -19,13 +19,18 @@ body{
     font-weight: bold;
     font-size: medium;
 }
-
+.panel-body > h3{
+    color: red!important;
+}
 #login-span{
     margin-left: 133px !important;
 }
 
 .parent-section{
     text-align: center;
+    display: block;
+    color: #eef1f5;
+    padding-top:12px;
 }
 
 label{

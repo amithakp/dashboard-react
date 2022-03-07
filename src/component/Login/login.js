@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 import './login.css';
 
 const loginrUrl = "http://localhost:4000/api/auth/login";
@@ -8,7 +9,7 @@ class Login extends Component {
         super(props)
 
         this.state={
-            email:'amita@gmail.com',           
+            email:'',           
             password:'',
             message:''
 
@@ -32,7 +33,7 @@ class Login extends Component {
                 this.setState({message:data.token});
             }else{
                 localStorage.setItem('ltk',data.token)
-                this.props.history.push('/Home')
+                this.props.history.push('/dashBoard')
             }
         })
     }
@@ -51,7 +52,7 @@ class Login extends Component {
                        <span id="login-span">Login</span>
                     </div>
                     <div className="panel-body">
-                        <h3 style={{color:'red'}}>{this.state.message}</h3>
+                        <h3>{this.state.message}</h3>
                             
                             <div className="row">
                                 <div className="col-md-12">
@@ -59,14 +60,14 @@ class Login extends Component {
                                         <div className="form-group">
                                             <label>Email</label>
                                             <input className="form-control" name="email" 
-                                            value={this.state.email} onChange ={this.handleChange}/>
+                                            value={this.state.email} onChange ={this.handleChange} required/>
                                         </div>
                                     </div> 
                                     <div className="col-md-12">
                                         <div className="form-group">
                                             <label>Password</label>
                                             <input className="form-control" name="password" type="password" 
-                                            value={this.state.password} onChange ={this.handleChange}/>
+                                            value={this.state.password} onChange ={this.handleChange} required/>
                                         </div>
                                     </div>
                                 </div>
@@ -74,6 +75,10 @@ class Login extends Component {
                                     <button className="btn btn-success" onClick={this.handleSubmit}>
                                         Login
                                     </button>
+                                </div>
+                                <div className="parent-section">
+                                    Need an account?
+                                    <Link to="/register">Sign Up</Link>
                                 </div>
                             </div>
                         </div>

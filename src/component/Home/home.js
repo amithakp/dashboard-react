@@ -1,14 +1,16 @@
 import React from 'react';
-import './home.css';
-import Header from '../header';
+import {Link} from 'react-router-dom';
+import './Home.css';
 
 const Home = () => {
     return(
-        <>
-            <Header/>       
+        <>        
             <center>
-                <h3>You Have Logged Successfully...</h3>
-            </center>
+                <div id="loginButton">
+                    <Link to="/login" className="btn btn-success btn-md">Login</Link> &nbsp;&nbsp;
+                    {/* <Link to="/register" className="btn btn-warning btn-md">Sign Up</Link> */}
+                </div>
+                </center>
         </>
     )
 }
