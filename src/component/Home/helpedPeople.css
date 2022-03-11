@@ -7,3 +7,19 @@
     background-size: 100% 500px;
     float: left;
   }
+
+  /* card images */
+.card {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 2%;
+    box-shadow: 14px 7px 8px grey;
+  }
+  .card>img {
+    height: 250px;
+    width: 100%;
+  }
+  .cardHead{
+      margin-left:40px;
+  }

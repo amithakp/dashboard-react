@@ -127,7 +127,6 @@ const Home = () => {
                 </div>
                 <HelpedPeople/>
             </div>
-   
         </>
     )
 }
