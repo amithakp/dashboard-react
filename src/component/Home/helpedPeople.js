@@ -7,7 +7,7 @@ const HelpedPeople = () => {
             <div className="truck">
                     {/* <img src="https://i.ibb.co/Ns235Px/samantha-gades-Bl-Ih-Vf-Xbi9s-unsplash.jpg" /> */}
             </div>
-            <h2>How We Helped Industries</h2>
+            {/* <h2 className="headHelped">How We Helped Industries</h2> */}
             <div className="card">
                 <img src="https://i.ibb.co/Ns235Px/samantha-gades-Bl-Ih-Vf-Xbi9s-unsplash.jpg"/>
                 <h4 className="cardHead">
