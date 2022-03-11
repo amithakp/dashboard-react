@@ -9,12 +9,14 @@ import Carriers from './Carriers/carriers';
 import OrderHistory from './Order History/orderHistory';
 import BillingDetails from './Billing Details/billingDetails';
 import Settings from './Settings/settings';
-import Home from './Home/Home';
+import HomeFirst from './HomeFirst/HomeFirst';
+import Home from './Home/home';
 
 const Routing = () => {
     return(
         <BrowserRouter>
-             <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Home}/>
+             <Route exact path="/homeFirst" component={HomeFirst}/>
              <Route  path="/dashBoard" component={DashBoard}/>
              <Route  path="/consignment" component={Consignment}/>
              <Route  path="/tracking" component={Tracking}/>

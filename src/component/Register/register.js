@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './register.css';
 
-const registerUrl = "http://localhost:4000/api/auth/register";
+const registerUrl = "http://localhost:6000/apis/auth/register";
 
 class Register extends Component {
     constructor(props){

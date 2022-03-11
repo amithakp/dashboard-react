@@ -1,0 +1,9 @@
+.truck{
+    width: 100%;
+    height:500px;
+    background-image: url("https://i.ibb.co/JBTYZ5Q/esteban-zapata-f8-Nb18i-Hd-Po-unsplash.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 500px;
+    float: left;
+  }

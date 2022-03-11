@@ -1,3 +1,123 @@
-#loginButton{
-    margin-top: 290px;
+/* main image part */
+.mainTilecontainer {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://i.ibb.co/LSMHmQ0/sime-basioli-BRkiko-NP0-KQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  color: rgb(46, 43, 43);
+  background-size: cover;
+  margin-top: -22px;
+  background-size: 100% 500px; /*img to fix*/
+}
+
+.heading {
+  font-size: 56px;
+  color: black;
+  width: 59%;
+  margin-top: 10%;
+  margin-left: 2%;
+  text-align: left;
+  position: absolute;
+}
+
+.subHeading {
+  text-align: left;
+}
+/* icon sections */
+.tileConatainerIcon{
+  width: 100%;
+  height: 250px;
+  margin-top: -38px;
+  background-color: rgb(206 209 221);
+}
+
+.column {
+  float: left;
+  width: 24%;
+  height: 220px;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+#one{
+  background-color:red;
+  margin-right: 5px;
+}
+#two{
+  background-color:rgb(41, 37, 37);
+  margin-right: 5px;
+}
+#three{
+  background-color:rgb(223, 122, 122);
+  margin-right: 5px;
+}
+#four{
+  background-color:rgb(223, 80, 80);
+  margin-right: 5px;
+}
+
+.row {
+  margin-left: 24px;
+  padding: 18px;
+}
+/* image left deccription right */
+
+.tileContainer{
+  margin-left:5%;
+}
+.media{
+   margin-top:8%!important;
+  box-shadow: 10px 15px 20px gray;
+}
+.media-object{
+  width:440px;
+  height:400px;
+}
+.media-left{
+  width:730px;
+  height:400px;
+  position: relative;
+}
+.media-body{
+  margin-left:1%!important;
+}
+.mediaHeading {
+  /* margin-top: 30px; */
+  color:red;
+}
+
+.center{
+  line-height:1.5;
+}
+
+.truck{
+  width: 100%;
+  height:500px;
+  background-image: url("https://i.ibb.co/JBTYZ5Q/esteban-zapata-f8-Nb18i-Hd-Po-unsplash.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 500px;
+  float: left;
+}
+/* card images */
+.card {
+  float: left;
+  height: 450px;
+  width: 300px;
+  margin: 2%;
+  box-shadow: 14px 7px 8px grey;
+}
+.card>img {
+  height: 250px;
+  width: 100%;
+}
+/* image left*/
+.media-right{
+  width:730px;
+  height: 400px;
+  position: relative;
+  float: right;
+  margin-right: -25%;
 }

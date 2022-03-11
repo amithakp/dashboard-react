@@ -25,3 +25,16 @@
   .navbar-inverse .navbar-nav>li>a:hover{
       color: rgb(230, 14, 14);
   }
+
+  .card{
+    float: left;
+    height:150px;
+    width: 200px;
+    margin: 2%;
+    box-shadow: 14px 7px 8px gray;
+  }
+
+  .card>img{
+    height:100px;
+    width:100%;
+  }

@@ -1,38 +1,34 @@
-body{
-    background: linear-gradient(45deg, #001a34, #000000);
-}
-
 .container-fluid {
-    background: linear-gradient(45deg, #001a34, #000000);
-    padding: 40px 30px;
-    transition:1s;
+  /* background: linear-gradient(45deg, #001a34, #000000); */
+  padding: 40px 30px;
+  transition: 1s;
 }
 
-.panel-success{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(45deg, #12283f, #000000);
+.panel-success {
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(45deg, #12283f, #000000);
 }
 
-.panel-heading> span{
-    color: #12283f!important;
-    font-weight: bold;
-    font-size: medium;
+.panel-heading > span {
+  color: #12283f !important;
+  font-weight: bold;
+  font-size: medium;
 }
-.panel-body > h3{
-    color: red!important;
+.panel-body > h3 {
+  color: red !important;
 }
-#login-span{
-    margin-left: 133px !important;
-}
-
-.parent-section{
-    text-align: center;
-    display: block;
-    color: #eef1f5;
-    padding-top:12px;
+#login-span {
+  margin-left: 133px !important;
 }
 
-label{
-    color: aliceblue;
+.parent-section {
+  text-align: center;
+  display: block;
+  color: #eef1f5;
+  padding-top: 12px;
+}
+
+label {
+  color: aliceblue;
 }

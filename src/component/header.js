@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './header.css';
 import {withRouter} from 'react-router-dom';
 
-const url="http://localhost:4000/api/auth/userinfo"
+const url="http://localhost:6000/apis/auth/userinfo"
 class Header extends Component {
     constructor(props) {
         super()

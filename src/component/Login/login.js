@@ -2,12 +2,11 @@ import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
 import './login.css';
 
-const loginrUrl = "http://localhost:4000/api/auth/login";
+const loginrUrl = "http://localhost:6000/apis/auth/login";
 
 class Login extends Component {
     constructor(props){
         super(props)
-
         this.state={
             email:'',           
             password:'',
@@ -26,10 +25,11 @@ class Login extends Component {
             },
             body:JSON.stringify(this.state)
         })
-        
+
         .then((res) => res.json())
         .then((data) => {
-            if(data.auth === false){
+            if(data.auth === false){ 
+                console.log(data.token);
                 this.setState({message:data.token});
             }else{
                 localStorage.setItem('ltk',data.token)
@@ -44,7 +44,7 @@ class Login extends Component {
     }
     render(){
         return(
-            <>
+            <center>
                 <div className="container-fluid">
                 <br/>
                 <div className="panel panel-success">
@@ -53,7 +53,6 @@ class Login extends Component {
                     </div>
                     <div className="panel-body">
                         <h3>{this.state.message}</h3>
-                            
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="col-md-12">
@@ -72,7 +71,7 @@ class Login extends Component {
                                     </div>
                                 </div>
                                 <div className="parent-section">
-                                    <button disabled={!this.state.email} className="btn btn-success" onClick={this.handleSubmit}>
+                                    <button className="btn btn-success" onClick={this.handleSubmit}>
                                         Login
                                     </button>
                                 </div>
@@ -84,7 +83,7 @@ class Login extends Component {
                         </div>
                     </div>
                 </div>
-            </>
+            </center>
         )
     }
 }
