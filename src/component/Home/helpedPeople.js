@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeHeader from './homeHeader';
 import './helpedPeople.css';
 
 const HelpedPeople = () => {
